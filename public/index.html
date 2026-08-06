@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Pokopia Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="app">
+
+    <aside id="sidebar">
+
+        
+
+        <div class="filters-header">
+
+            <h2>Filtros</h2>
+
+            <button id="clear-filters" title="Limpiar filtros">
+
+                <img src="/icons/clear-filters.svg" alt="Limpiar filtros">
+
+            </button>
+
+        </div>
+
+        <div id="pokemon-filters-panel">
+
+            <label>Buscar</label>
+
+            <input
+                id="search"
+                type="text"
+                placeholder="Nombre del Pokémon">
+
+            <details open id="specialties-filter">
+
+                <summary>Especialidades</summary>
+
+                <div id="specialties"></div>
+
+            </details>
+
+            <details id="status-filter" open>
+
+                <summary>Estado</summary>
+
+                <div id="completed-filters">
+
+                    <label>
+
+                        <input
+                            id="filter-completed"
+                            type="checkbox">
+
+                        <span id="completed-count">
+                            Conseguidos
+                        </span>
+
+                    </label>
+
+                    <label>
+
+                        <input
+                            id="filter-not-completed"
+                            type="checkbox">
+
+                        <span id="not-completed-count">
+                            Sin conseguir
+                        </span>
+
+                    </label>
+
+                </div>
+
+            </details>
+
+            <details id="habitat-filter" open>
+
+                <summary>Hábitat</summary>
+
+                <div id="habitat-filters">
+
+                    <label>
+
+                        <input
+                            id="filter-possible-habitat"
+                            type="checkbox">
+
+                        <span id="possible-habitat-count">
+                            Hábitat posible
+                        </span>
+
+                    </label>
+
+                    <label>
+
+                        <input
+                            id="filter-other-habitat"
+                            type="checkbox">
+
+                        <span id="other-habitat-count">
+                            Otro hábitat
+                        </span>
+
+                    </label>
+
+                    <label>
+
+                        <input
+                            id="filter-no-habitat"
+                            type="checkbox">
+
+                        <span id="no-habitat-count">
+                            Sin hábitat
+                        </span>
+
+                    </label>
+
+                </div>
+
+            </details>
+
+            <details id="zones-filter" open>
+
+                <summary>Zonas</summary>
+
+                <div id="zones"></div>
+
+            </details>
+
+            <details id="notes-filter" open>
+
+                <summary>Notas</summary>
+
+                <div id="notes-filters">
+
+                    <label>
+
+                        <input
+                            id="filter-with-notes"
+                            type="checkbox">
+
+                        <span id="with-notes-label">
+                            Con notas
+                        </span>
+
+                    </label>
+
+                    <label>
+
+                        <input
+                            id="filter-without-notes"
+                            type="checkbox">
+
+                        <span id="without-notes-label">
+                            Sin notas
+                        </span>
+
+                    </label>
+
+                </div>
+
+            </details>
+
+        </div>
+
+        <div id="habitat-filters-panel" hidden>
+
+            <label>Buscar</label>
+
+            <input
+                id="habitat-search-sidebar"
+                type="text"
+                placeholder="Nombre del Hábitat">
+
+            <details id="habitat-status-filter" open>
+
+                <summary>Estado</summary>
+
+                <div id="habitat-completed-filters">
+
+                    <label>
+
+                        <input
+                            id="filter-habitat-completed"
+                            type="checkbox">
+
+                        <span id="habitat-completed-count">
+                            Con Pokémon
+                        </span>
+
+                    </label>
+
+                    <label>
+
+                        <input
+                            id="filter-habitat-empty"
+                            type="checkbox">
+
+                        <span id="habitat-empty-count">
+                            Sin Pokémon
+                        </span>
+
+                    </label>
+
+                </div>
+
+            </details>
+
+        </div>
+
+    </aside>
+
+    <section id="browser">
+
+        <div id="browser-tabs">
+
+            <button id="pokemon-tab" class="browser-tab active">
+
+                <div class="browser-tab-title">
+                    Pokémon
+                </div>
+
+                <div class="browser-tab-progress">
+
+                    <div
+                        id="pokemon-progress-bar"
+                        class="browser-tab-progress-fill">
+                    </div>
+
+                </div>
+
+                <div id="pokemon-progress-text">
+                    0 / 313
+                </div>
+
+            </button>
+
+            <button id="habitat-tab" class="browser-tab">
+
+                <div class="browser-tab-title">
+                    Hábitats
+                </div>
+
+                <div class="browser-tab-progress">
+                    <div
+                        id="habitat-progress-bar"
+                        class="browser-tab-progress-fill">
+                    </div>
+                </div>
+
+                <div id="habitat-progress-text">
+                    0 / 0
+                </div>
+
+            </button>
+
+        </div>
+
+        <main id="pokemon-grid"></main>
+
+        <div id="habitat-grid" hidden></div>
+
+    </section>
+
+    <aside id="editor">
+
+        <div id="editor-empty">
+
+            Selecciona un Pokémon
+
+        </div>
+
+        <div id="pokemon-editor" hidden>
+
+            <div class="editor-header">
+
+                <h2>
+                    <a
+                        id="editor-name"
+                        href=""
+                        target="_blank">
+                    </a>
+                </h2>
+
+                <div class="editor-main">
+
+                    <img id="editor-image">
+
+                    <div id="editor-specialties"></div>
+
+                </div>
+
+                <button id="editor-completed" class="completed-button"></button>
+
+            </div>
+
+            <hr>
+            <h3>Hábitat elegido</h3>
+
+            <div id="selected-habitat">
+
+                <div id="selected-habitat-link">
+
+                    <img id="selected-habitat-image">
+
+                </div>
+
+                <div id="selected-habitat-name"></div>
+
+            </div>
+
+            <hr>
+
+            <h3>Hábitats posibles</h3>
+
+            <div id="editor-locations"></div>
+
+            <button id="other-habitats-button">
+
+                Otros hábitats...
+
+            </button>
+
+            <hr>
+
+            <h3>Zona</h3>
+
+            <div id="editor-zones"></div>
+
+            <hr>
+
+            <h3>Notas</h3>
+
+            <textarea
+                id="editor-notes"
+                rows="5"
+                placeholder="Notas..."></textarea>
+
+        </div>
+
+        <div id="habitat-editor" hidden>
+
+            <div class="editor-header">
+
+                <h2>
+                    <a
+                        id="habitat-name"
+                        href=""
+                        target="_blank">
+                    </a>
+                </h2>
+
+                <img id="habitat-image">
+
+            </div>
+
+            <hr>
+
+            <h3>
+                Pokémon asignados
+                <span id="habitat-assigned-count"></span>
+            </h3>
+
+            <div id="habitat-assigned"></div>
+
+            <hr>
+
+            <h3>
+                Pokémon posibles
+                <span id="habitat-possible-count"></span>
+            </h3>
+
+            <div id="habitat-possible"></div>
+
+            <hr>
+
+            <h3>Materiales necesarios</h3>
+
+            <div id="habitat-materials"></div>
+
+        </div>
+
+    </aside>
+
+</div>
+
+<div id="habitat-modal" class="modal" hidden>
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+
+            <h2>Otros hábitats</h2>
+
+            <button id="close-habitat-modal">✕</button>
+
+        </div>
+
+        <input
+            id="habitat-search"
+            type="text"
+            placeholder="Buscar hábitat...">
+
+        <div id="habitat-list"></div>
+
+    </div>
+
+</div>
+
+<div id="habitat-tooltip" hidden>
+
+    <div class="tooltip-section">
+
+        <strong>Rareza</strong>
+
+        <div id="tooltip-rarity"></div>
+
+    </div>
+
+    <div class="tooltip-divider-horizontal"></div>
+
+    <div class="tooltip-content">
+
+        <div class="tooltip-column">
+
+            <strong>Hora</strong>
+
+            <div id="tooltip-time"></div>
+
+        </div>
+
+        <div class="tooltip-divider"></div>
+
+        <div class="tooltip-column">
+
+            <strong>Clima</strong>
+
+            <div id="tooltip-weather"></div>
+
+        </div>
+
+    </div>
+
+    <div class="tooltip-divider-horizontal"></div>
+
+    <div class="tooltip-section">
+
+        <strong>Zonas</strong>
+
+        <div id="tooltip-zones"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
