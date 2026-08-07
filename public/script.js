@@ -13,6 +13,7 @@ let habitats = [];
 let userData = {};
 let currentPokemon = null;
 let specialties = [];
+let editingPokemon = null;
 
 const habitatMap = {};
 
@@ -579,6 +580,7 @@ function renderZones() {
             .forEach(i => i.classList.remove("selected"));
         none.classList.add("selected");
         userData[currentPokemon.key].zone = "";
+        updateFilterCounts();
         await saveUserData();
     };
 
@@ -834,7 +836,7 @@ document.getElementById("other-habitats-button").addEventListener("click", () =>
 
     habitatSearch.value = "";
 
-    renderHabitatModal(habitats);
+    renderHabitatModal(habitats,editingPokemon);
 
     habitatModal.hidden = false;
 
@@ -864,13 +866,14 @@ habitatSearch.addEventListener("input", () => {
 
         habitats.filter(h =>
             h.name.toLowerCase().includes(text)
-        )
+        ),
+        editingPokemon
 
     );
 
 });
 
-function renderHabitatModal(list) {
+function renderHabitatModal(list, p) {
 
     habitatList.innerHTML = "";
 
@@ -886,6 +889,13 @@ function renderHabitatModal(list) {
 
         if (hasPokemon) {
             card.classList.add("habitat-modal-completed");
+        }
+
+        if (editingPokemon &&
+            userData[editingPokemon.key]?.habitat === h.key) {
+
+            card.classList.add("habitat-selected");
+
         }
 
         card.onclick = () => {
@@ -972,6 +982,9 @@ async function selectHabitat(key, save = true) {
 
         updateHabitatProgress();
 
+        updateFilterCounts();
+        applyFilters();
+
         if (save) {
             await saveUserData();
         }
@@ -990,7 +1003,7 @@ async function selectHabitat(key, save = true) {
     document.querySelectorAll(".location-image").forEach(img => {
 
         if (img.title === habitat.name) {
-            img.style.border = "3px solid #4CAF50";
+            img.classList.add("habitat-selected");
         }
 
     });
@@ -1013,6 +1026,9 @@ async function selectHabitat(key, save = true) {
     userData[currentPokemon.key].habitat = key;
 
     updateHabitatProgress();
+
+    updateFilterCounts();
+    applyFilters();
 
     if (save) {
         await saveUserData();
@@ -1414,6 +1430,8 @@ function renderHabitats(list = habitats){
 let navigationHistory = [];
 
 function openPokemon(p){
+
+    editingPokemon = p;
 
     history.pushState(
         {

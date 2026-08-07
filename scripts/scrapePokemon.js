@@ -229,12 +229,19 @@ async function scrapeLocations(pokemon) {
                     .replace(/\s+/g, " ")
                     .trim();
 
-                const columns = conditionsRow
-                    .find("td")
-                    .eq(i)
-                    .find("table tr")
-                    .eq(1)
-                    .find("td");
+                const conditionCell = conditionsRow
+                    .find("> td")
+                    .eq(i);
+
+                const conditionTable = conditionCell
+                    .find("table")
+                    .first();
+
+                const dataRow = conditionTable
+                    .find("tr")
+                    .eq(1);
+
+                const columns = dataRow.find("td");
 
                 const time = splitValues(
                     columns.eq(0).text()

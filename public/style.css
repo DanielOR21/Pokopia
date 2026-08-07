@@ -361,6 +361,16 @@ body{
     border-color:#4CAF50;
 }
 
+.location-image.habitat-selected,
+.habitat-card.habitat-modal-completed.habitat-selected{
+    border: 3px solid #388E3C !important;
+
+    box-shadow:
+        0 0 12px rgba(56, 142, 60, .45),
+        inset 0 0 18px rgba(76, 175, 80, .45) !important;
+
+}
+
 /* ========================= */
 /* Formularios               */
 /* ========================= */
@@ -504,11 +514,11 @@ hr{
 .habitat-card.habitat-modal-completed,
 .habitat-possible-completed{
 
-    border:2px solid #4CAF50;
+    border:2px solid #4CAF50 !important;
 
     box-shadow:
-        0 0 8px rgba(76,175,80,.35),
-        inset 0 0 15px rgba(76,175,80,.4);
+    0 0 8px rgba(76,175,80,.35),
+    inset 0 0 30px rgba(76,175,80,.4);
 
 }
 
@@ -534,6 +544,9 @@ hr{
     grid-template-columns:repeat(auto-fill,110px);
 
     gap:15px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     align-content:start;
 

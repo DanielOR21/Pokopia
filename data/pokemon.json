@@ -78,8 +78,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -162,8 +171,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -247,8 +265,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -435,8 +462,16 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud"
+                ]
             }
         ]
     },
@@ -519,8 +554,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -656,8 +700,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -740,8 +793,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -824,8 +886,16 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -1167,8 +1237,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -1251,8 +1330,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -1332,8 +1420,14 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -1413,8 +1507,14 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -1551,8 +1651,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -1636,8 +1745,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -1774,8 +1892,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             },
             {
                 "habitat": "fishingpond",
@@ -1806,8 +1933,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -1891,8 +2027,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             },
             {
                 "habitat": "fishingpond",
@@ -1923,8 +2068,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -2059,8 +2213,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -2144,8 +2307,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -2650,8 +2822,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -3093,8 +3274,14 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             },
             {
                 "habitat": "gentlylitbed",
@@ -3125,8 +3312,14 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -3207,8 +3400,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -3951,8 +4153,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             },
             {
                 "habitat": "plushcentral",
@@ -3983,8 +4194,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -4277,8 +4497,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -4414,8 +4643,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -4498,8 +4736,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -4634,8 +4881,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -4718,8 +4974,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -4803,8 +5068,17 @@
                     }
                 ],
                 "rarity": "Very Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -4885,8 +5159,15 @@
                     }
                 ],
                 "rarity": "",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Rain"
+                ]
             }
         ]
     },
@@ -5281,8 +5562,14 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -5412,8 +5699,14 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -5496,8 +5789,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -5738,8 +6040,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -5823,8 +6134,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -6112,8 +6432,14 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -6247,8 +6573,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -6332,8 +6667,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -6417,8 +6761,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -6502,8 +6855,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -6586,8 +6948,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -6827,8 +7198,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -6912,8 +7292,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -7016,8 +7405,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -7121,8 +7519,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -7310,8 +7717,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -7395,8 +7811,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -7533,8 +7958,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -7618,8 +8052,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -7790,8 +8233,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -7926,8 +8378,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -8011,8 +8472,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -8096,8 +8566,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -8180,8 +8659,16 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -8264,8 +8751,16 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -8349,8 +8844,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -8434,8 +8938,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -8623,8 +9136,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -8706,8 +9228,15 @@
                     }
                 ],
                 "rarity": "Very Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Rain"
+                ]
             }
         ]
     },
@@ -9000,8 +9529,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -9084,8 +9622,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -9221,8 +9768,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -9447,8 +10003,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -9532,8 +10097,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -9975,8 +10549,14 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -10057,8 +10637,14 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -10193,8 +10779,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -10330,8 +10925,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -10415,8 +11019,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -10537,8 +11150,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -10622,8 +11244,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -11040,8 +11671,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -11122,8 +11762,14 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -11206,8 +11852,14 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -11397,8 +12049,17 @@
                     }
                 ],
                 "rarity": "Very Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -11481,8 +12142,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             },
             {
                 "habitat": "hot-springfishingspot",
@@ -11513,8 +12183,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -11597,8 +12276,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -11823,8 +12511,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -11907,8 +12604,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -11991,8 +12697,16 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -12075,8 +12789,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -12317,8 +13040,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -12491,8 +13223,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -12627,8 +13368,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -12712,8 +13462,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -12992,8 +13751,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -13217,8 +13985,16 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -13301,8 +14077,16 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -13543,8 +14327,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -13627,8 +14420,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -13867,8 +14669,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -14056,8 +14867,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -14141,8 +14961,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             },
             {
                 "habitat": "harmonioushotspring",
@@ -14173,8 +15002,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -14257,8 +15095,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -14362,8 +15209,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -14446,8 +15302,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -14739,8 +15604,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -14823,8 +15697,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -15012,8 +15895,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -15097,8 +15989,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -15178,8 +16079,14 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -15260,8 +16167,14 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             },
             {
                 "habitat": "officestoreroom",
@@ -15292,8 +16205,14 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -15533,8 +16452,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -15618,8 +16546,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -16535,8 +17472,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -16671,8 +17617,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -16756,8 +17711,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -17086,8 +18050,17 @@
                     }
                 ],
                 "rarity": "",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -17224,8 +18197,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -17361,8 +18343,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -17623,8 +18614,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -17691,8 +18691,17 @@
                     }
                 ],
                 "rarity": "",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -18768,8 +19777,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -19031,8 +20049,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -19233,8 +20260,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             },
             {
                 "habitat": "bubblybathtub",
@@ -19269,8 +20305,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -19362,8 +20407,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -19455,8 +20509,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -19660,8 +20723,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -19752,8 +20824,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -19845,8 +20926,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -19938,8 +21028,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -20143,8 +21242,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             },
             {
                 "habitat": "muddyplaytime",
@@ -20179,8 +21287,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -20328,8 +21445,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -20477,8 +21603,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             },
             {
                 "habitat": "fluffyrelaxation",
@@ -20513,8 +21648,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -20606,8 +21750,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -20735,8 +21888,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -20828,8 +21990,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -20921,8 +22092,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -21014,8 +22194,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -21278,8 +22467,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -21485,8 +22683,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -21861,8 +23068,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -22468,8 +23684,17 @@
                     }
                 ],
                 "rarity": "Common",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
@@ -22553,8 +23778,17 @@
                     }
                 ],
                 "rarity": "Rare",
-                "time": [],
-                "weather": []
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
             }
         ]
     },
