@@ -30,7 +30,11 @@ async function loadData() {
 
     pokemon = await fetch("/data/pokemon.json").then(r => r.json());
     habitats = await fetch("/data/habitats.json").then(r => r.json());
-    userData = await fetch("/userdata").then(r => r.json());
+    const savedData = localStorage.getItem("pokopia-user-data");
+
+    userData = savedData
+        ? JSON.parse(savedData)
+        : {};
 
     habitats.forEach(h => habitatMap[h.key] = h);
 
@@ -1030,19 +1034,12 @@ function updateCompletedButton() {
 
 }
 
-async function saveUserData() {
+function saveUserData() {
 
-    await fetch("/userdata", {
-
-        method: "POST",
-
-        headers: {
-            "Content-Type": "application/json"
-        },
-
-        body: JSON.stringify(userData)
-
-    });
+    localStorage.setItem(
+        "pokopia-user-data",
+        JSON.stringify(userData)
+    );
 
 }
 
