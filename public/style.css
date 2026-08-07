@@ -501,7 +501,8 @@ hr{
 
 }
 
-.habitat-card.habitat-modal-completed{
+.habitat-card.habitat-modal-completed,
+.habitat-possible-completed{
 
     border:2px solid #4CAF50;
 

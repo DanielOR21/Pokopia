@@ -452,6 +452,14 @@ function renderLocations(p) {
 
         img.title = habitat.name;
 
+        const hasPokemon = pokemon.some(p =>
+            userData[p.key]?.habitat === habitat.key
+        );
+
+        if (hasPokemon) {
+            img.classList.add("habitat-possible-completed");
+        }
+
         img.onclick = () => selectHabitat(location.habitat);
 
         img.onmouseenter = () => {
@@ -877,7 +885,7 @@ function renderHabitatModal(list) {
         );
 
         if (hasPokemon) {
-            card.classList.add("habitat-modal-//completed");
+            card.classList.add("habitat-modal-completed");
         }
 
         card.onclick = () => {
