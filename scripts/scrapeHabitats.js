@@ -5,6 +5,8 @@ const fs = require("fs");
 const URL = "https://www.serebii.net/pokemonpokopia/habitats.shtml";
 const BASE = "https://www.serebii.net";
 
+
+// Error con las imagenes 154 y 146 cambiadas
 async function scrapeHabitats() {
 
     try {

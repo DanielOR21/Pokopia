@@ -3007,7 +3007,7 @@
     {
         "id": 146,
         "key": "illuminatedwaterfall",
-        "image": "146",
+        "image": "154",
         "name": "Illuminated waterfall",
         "materials": [
             {
@@ -3166,7 +3166,7 @@
     {
         "id": 154,
         "key": "oversizeddumpingground",
-        "image": "154",
+        "image": "146",
         "name": "Oversized dumping ground",
         "materials": [
             {
