@@ -50,6 +50,7 @@ async function loadData() {
 
     updateFilterCounts();
     updateHabitatProgress();
+    updateHabitatFilterCounts();
 
     clearFilters();
     applyFilters();
@@ -311,24 +312,64 @@ function applyHabitatFilters() {
     const empty =
         document.getElementById("filter-habitat-empty").checked;
 
-    if (completed !== empty) {
+    const multiple =
+        document.getElementById("filter-habitat-multiple").checked;
+
+    if (empty || completed || multiple) {
 
         filtered = filtered.filter(h => {
 
-            const hasPokemon = pokemon.some(p =>
+            const pokemonCount = pokemon.filter(p =>
                 userData[p.key]?.habitat === h.key
+            ).length;
+
+            return (
+                (empty && pokemonCount === 0) ||
+                (completed && pokemonCount === 1) ||
+                (multiple && pokemonCount > 1)
             );
 
-            return completed
-                ? hasPokemon
-                : !hasPokemon;
-
         });
-
     }
 
     renderHabitats(filtered);
 
+}
+
+function updateHabitatFilterCounts() {
+
+    let emptyCount = 0;
+    let completedCount = 0;
+    let multipleCount = 0;
+
+    habitats.forEach(h => {
+
+        const pokemonCount = pokemon.filter(p =>
+            userData[p.key]?.habitat === h.key
+        ).length;
+
+        if (pokemonCount === 0) {
+            emptyCount++;
+        }
+
+        if (pokemonCount === 1) {
+            completedCount++;
+        }
+
+        if (pokemonCount > 1) {
+            multipleCount++;
+        }
+
+    });
+
+    document.getElementById("habitat-empty-count").textContent =
+        `No Pokémon (${emptyCount})`;
+
+    document.getElementById("habitat-completed-count").textContent =
+        `Solo 1 Pokémon (${completedCount})`;
+
+    document.getElementById("habitat-multiple-count").textContent =
+        `Más de 1 Pokémon (${multipleCount})`;
 }
 
 function showPokemon(p) {
@@ -581,6 +622,7 @@ function renderZones() {
         none.classList.add("selected");
         userData[currentPokemon.key].zone = "";
         updateFilterCounts();
+        updateHabitatFilterCounts();
         await saveUserData();
     };
 
@@ -617,6 +659,7 @@ function renderZones() {
             userData[currentPokemon.key].zone = zone;
 
             updateFilterCounts();
+            updateHabitatFilterCounts();
 
             await saveUserData();
 
@@ -984,6 +1027,7 @@ async function selectHabitat(key, save = true) {
 
         updateFilterCounts();
         applyFilters();
+        updateHabitatFilterCounts();
 
         if (save) {
             await saveUserData();
@@ -1029,6 +1073,7 @@ async function selectHabitat(key, save = true) {
 
     updateFilterCounts();
     applyFilters();
+    updateHabitatFilterCounts();
 
     if (save) {
         await saveUserData();
@@ -1517,6 +1562,7 @@ document
     updatePokemonCard(currentPokemon.key);
 
     updateFilterCounts();
+    updateHabitatFilterCounts();
 
     await saveUserData();
 
@@ -1531,6 +1577,7 @@ document
     userData[currentPokemon.key].notes = e.target.value;
 
     updateFilterCounts();
+    updateHabitatFilterCounts();
 
     await saveUserData();
 
@@ -1590,6 +1637,10 @@ document
 
 document
 .getElementById("filter-habitat-empty")
+.addEventListener("change", applyHabitatFilters);
+
+document
+.getElementById("filter-habitat-multiple")
 .addEventListener("change", applyHabitatFilters);
 
 loadData();
