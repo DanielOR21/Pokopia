@@ -993,7 +993,7 @@ async function selectHabitat(key, save = true) {
     }
 
     document.querySelectorAll(".location-image").forEach(img => {
-        img.style.border = "2px solid transparent";
+        img.classList.remove("habitat-selected");
     });
 
     const habitat = habitatMap[key];
