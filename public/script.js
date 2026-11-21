@@ -17,6 +17,19 @@ let editingPokemon = null;
 
 const habitatMap = {};
 
+// Los hábitats con local:true usan una imagen propia en /icons/ y no tienen página en Serebii
+function habitatImageUrl(h) {
+    return h.local
+        ? `/icons/${h.image}.png`
+        : `https://www.serebii.net/pokemonpokopia/habitatdex/${h.image}.png`;
+}
+
+function habitatPageUrl(h) {
+    return h.local
+        ? ""
+        : `https://www.serebii.net/pokemonpokopia/habitatdex/${h.key}.shtml`;
+}
+
 const EVENT_ID_OFFSET = 10000;
 
 function getRealPokopiaId(id) {
@@ -488,7 +501,7 @@ function renderLocations(p) {
 
         const img = document.createElement("img");
 
-        img.src = `https://www.serebii.net/pokemonpokopia/habitatdex/${habitat.image}.png`;
+        img.src = habitatImageUrl(habitat);
 
         img.className = "location-image";
 
@@ -685,12 +698,15 @@ function showHabitat(habitat){
     const habitatLink = document.getElementById("habitat-name");
 
     habitatLink.textContent = habitat.name;
-    habitatLink.href =
-        `https://www.serebii.net/pokemonpokopia/habitatdex/${habitat.key}.shtml`;
+    if (habitatPageUrl(habitat)) {
+        habitatLink.href = habitatPageUrl(habitat);
+    } else {
+        habitatLink.removeAttribute("href");
+    }
 
     // Imagen
     document.getElementById("habitat-image").src =
-        `https://www.serebii.net/pokemonpokopia/habitatdex/${habitat.image}.png`;
+        habitatImageUrl(habitat);
 
     renderHabitatAssigned(habitat);
     renderHabitatPossible(habitat);
@@ -955,7 +971,7 @@ function renderHabitatModal(list, p) {
 
         const img = document.createElement("img");
 
-        img.src = `https://www.serebii.net/pokemonpokopia/habitatdex/${h.image}.png`;
+        img.src = habitatImageUrl(h);
 
         img.alt = h.name;
 
@@ -1056,7 +1072,7 @@ async function selectHabitat(key, save = true) {
 
     selectedImage.hidden = false;
     selectedImage.src =
-        `https://www.serebii.net/pokemonpokopia/habitatdex/${habitat.image}.png`;
+        habitatImageUrl(habitat);
 
     document.getElementById("selected-habitat-name").textContent =
         habitat.name;
@@ -1064,7 +1080,7 @@ async function selectHabitat(key, save = true) {
     const link = document.getElementById("selected-habitat-link");
 
     if (link) {
-        link.href = `https://www.serebii.net/pokemonpokopia/habitatdex/${habitat.key}.shtml`;
+        link.href = habitatPageUrl(habitat);
     }
 
     userData[currentPokemon.key].habitat = key;
@@ -1420,7 +1436,7 @@ function renderHabitats(list = habitats){
         const image = document.createElement("img");
         image.className = "habitat-browser-image";
         image.src =
-            `https://www.serebii.net/pokemonpokopia/habitatdex/${habitat.image}.png`;
+            habitatImageUrl(habitat);
 
         const name = document.createElement("div");
         name.className = "habitat-browser-name";

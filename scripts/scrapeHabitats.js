@@ -61,9 +61,21 @@ async function scrapeHabitats() {
 
         });
 
+        // Hábitat personalizado (imagen propia en icons/custom.png)
+        habitats.unshift({
+            id: 0,
+            key: "custom",
+            image: "custom",
+            name: "Custom",
+            local: true,
+            materials: []
+        });
+
         console.log("Descargando materiales...");
 
         for (const habitat of habitats) {
+
+            if (habitat.local) continue;
 
             const { data } = await axios.get(
                 `${BASE}/pokemonpokopia/habitatdex/${habitat.key}.shtml`

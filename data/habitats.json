@@ -1,5 +1,13 @@
 [
     {
+        "id": 0,
+        "key": "custom",
+        "image": "custom",
+        "name": "Custom",
+        "local": true,
+        "materials": []
+    },
+    {
         "id": 1,
         "key": "tallgrass",
         "image": "1",
