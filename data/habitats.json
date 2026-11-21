@@ -832,8 +832,8 @@
                 "quantity": 1
             },
             {
-                "key": "lostrelic(large)",
-                "name": "Lost relic (large)",
+                "key": "largelostrelic",
+                "name": "Large lost relic",
                 "quantity": 4
             },
             {
@@ -1196,8 +1196,8 @@
         "name": "Resting spot",
         "materials": [
             {
-                "key": "carboadboxes",
-                "name": "Carboad boxes",
+                "key": "cardboardboxes",
+                "name": "Cardboard boxes",
                 "quantity": 1
             },
             {
@@ -1214,8 +1214,8 @@
         "name": "Perpetual mess",
         "materials": [
             {
-                "key": "carboadboxes",
-                "name": "Carboad boxes",
+                "key": "cardboardboxes",
+                "name": "Cardboard boxes",
                 "quantity": 1
             },
             {
@@ -1273,8 +1273,8 @@
                 "quantity": 1
             },
             {
-                "key": "garbagebag",
-                "name": "Garbage Bag",
+                "key": "garbagebags",
+                "name": "Garbage bags",
                 "quantity": 1
             }
         ]
@@ -1498,13 +1498,13 @@
         "name": "Changing area",
         "materials": [
             {
-                "key": "closet",
-                "name": "Closet",
+                "key": "plaincloset",
+                "name": "Plain closet",
                 "quantity": 1
             },
             {
-                "key": "mirror(large)",
-                "name": "Mirror (large)",
+                "key": "largemirror",
+                "name": "Large mirror",
                 "quantity": 1
             }
         ]
@@ -1516,18 +1516,18 @@
         "name": "Private makeup stand",
         "materials": [
             {
-                "key": "partition",
-                "name": "Partition",
+                "key": "woodenpartition",
+                "name": "Wooden partition",
                 "quantity": 2
             },
             {
-                "key": "closet",
-                "name": "Closet",
+                "key": "plaincloset",
+                "name": "Plain closet",
                 "quantity": 1
             },
             {
-                "key": "dresser",
-                "name": "Dresser",
+                "key": "dresser(any)",
+                "name": "Dresser (any)",
                 "quantity": 1
             }
         ]
@@ -2673,8 +2673,8 @@
                 "quantity": 1
             },
             {
-                "key": "seat(wide",
-                "name": "Seat (wide",
+                "key": "seat(wide)",
+                "name": "Seat (wide)",
                 "quantity": 1
             },
             {
@@ -2696,8 +2696,8 @@
                 "quantity": 4
             },
             {
-                "key": "moonlightdancestatue",
-                "name": "Moonlight dance statue",
+                "key": "moonlightdancestatuekit",
+                "name": "Moonlight dance statue kit",
                 "quantity": 1
             },
             {
@@ -3007,7 +3007,7 @@
     {
         "id": 146,
         "key": "illuminatedwaterfall",
-        "image": "154",
+        "image": "146",
         "name": "Illuminated waterfall",
         "materials": [
             {
@@ -3098,8 +3098,8 @@
                 "quantity": 1
             },
             {
-                "key": "seat(wide",
-                "name": "Seat (wide",
+                "key": "seat(wide)",
+                "name": "Seat (wide)",
                 "quantity": 1
             }
         ]
@@ -3166,7 +3166,7 @@
     {
         "id": 154,
         "key": "oversizeddumpingground",
-        "image": "146",
+        "image": "154",
         "name": "Oversized dumping ground",
         "materials": [
             {
@@ -3627,8 +3627,8 @@
                 "quantity": 1
             },
             {
-                "key": "boo-in-thebox",
-                "name": "Boo-in-thebox",
+                "key": "boo-in-the-box",
+                "name": "Boo-in-the-box",
                 "quantity": 1
             }
         ]
@@ -3714,8 +3714,8 @@
         "name": "Construction-site generator",
         "materials": [
             {
-                "key": "furnace",
-                "name": "Furnace",
+                "key": "furnacekit",
+                "name": "Furnace kit",
                 "quantity": 1
             },
             {
@@ -5081,9 +5081,9 @@
     },
     {
         "id": 27,
-        "key": "topsy-turby",
+        "key": "topsy-turvy",
         "image": "b27",
-        "name": "Topsy-turby",
+        "name": "Topsy-turvy",
         "materials": [
             {
                 "key": "lampion",
@@ -5323,13 +5323,13 @@
                 "quantity": 1
             },
             {
-                "key": "decorativenetball",
-                "name": "Decorative Net Ball",
+                "key": "decorativelureball",
+                "name": "Decorative Lure Ball",
                 "quantity": 1
             },
             {
-                "key": "decorativelureball",
-                "name": "Decorative Lure Ball",
+                "key": "decorativequickball",
+                "name": "Decorative Quick Ball",
                 "quantity": 1
             }
         ]
@@ -5446,6 +5446,162 @@
                 "key": "jirachilamp",
                 "name": "Jirachi lamp",
                 "quantity": 1
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "key": "excitingbeach",
+        "image": "e6",
+        "name": "Exciting beach",
+        "materials": [
+            {
+                "key": "sandbed",
+                "name": "Sand bed",
+                "quantity": 1
+            },
+            {
+                "key": "bigswimring",
+                "name": "Big swim ring",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "key": "marineleisureactivities",
+        "image": "e7",
+        "name": "Marine leisure activities",
+        "materials": [
+            {
+                "key": "swimring",
+                "name": "Swim ring",
+                "quantity": 1
+            },
+            {
+                "key": "cooler",
+                "name": "Cooler",
+                "quantity": 1
+            },
+            {
+                "key": "beachvolleyballset",
+                "name": "Beach volleyball set",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "key": "givemesomethinggoodtoeat",
+        "image": "e8",
+        "name": "Give me something good to eat",
+        "materials": [
+            {
+                "key": "table(any)",
+                "name": "Table (any)",
+                "quantity": 1
+            },
+            {
+                "key": "candybucket",
+                "name": "Candy bucket",
+                "quantity": 1
+            },
+            {
+                "key": "ghostsmokeprojector",
+                "name": "Ghost smoke projector",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "key": "creepypumpkins",
+        "image": "e9",
+        "name": "Creepy pumpkins",
+        "materials": [
+            {
+                "key": "trevenantstreetlight",
+                "name": "Trevenant streetlight",
+                "quantity": 1
+            },
+            {
+                "key": "pumpkinlantern",
+                "name": "Pumpkin lantern",
+                "quantity": 1
+            },
+            {
+                "key": "pumpkinlanterntower",
+                "name": "Pumpkin lantern tower",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "key": "abundantapples",
+        "image": "e10",
+        "name": "Abundant apples",
+        "materials": [
+            {
+                "key": "syrupyappletree",
+                "name": "Syrupy apple tree",
+                "quantity": 1
+            },
+            {
+                "key": "harvestbasket",
+                "name": "Harvest basket",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "key": "sweetapplepie",
+        "image": "e11",
+        "name": "Sweet apple pie",
+        "materials": [
+            {
+                "key": "applepie",
+                "name": "Apple pie",
+                "quantity": 1
+            },
+            {
+                "key": "table(any)",
+                "name": "Table (any)",
+                "quantity": 1
+            },
+            {
+                "key": "seat(any)",
+                "name": "Seat (any)",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "key": "applekitchen",
+        "image": "e12",
+        "name": "Apple kitchen",
+        "materials": [
+            {
+                "key": "appleyblender",
+                "name": "Appley blender",
+                "quantity": 1
+            },
+            {
+                "key": "dipplinmixingbowl",
+                "name": "Dipplin mixing bowl",
+                "quantity": 1
+            },
+            {
+                "key": "kitchenscale",
+                "name": "Kitchen scale",
+                "quantity": 1
+            },
+            {
+                "key": "kitchentable",
+                "name": "Kitchen table",
+                "quantity": 3
             }
         ]
     }

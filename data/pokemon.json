@@ -21104,7 +21104,7 @@
         "image": "319",
         "name": "Sharpedo",
         "specialties": [
-            "Chop",
+            "Crush",
             "Scrub"
         ],
         "locations": [
@@ -22549,7 +22549,7 @@
         ],
         "locations": [
             {
-                "habitat": "topsy-turby",
+                "habitat": "topsy-turvy",
                 "zones": [
                     {
                         "key": "witheredwastelands",
@@ -23882,6 +23882,606 @@
                     }
                 ],
                 "rarity": "Common",
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
+            }
+        ]
+    },
+    {
+        "key": "feebas",
+        "pokopiaId": 10006,
+        "image": "349",
+        "name": "Feebas",
+        "specialties": [
+            "Water"
+        ],
+        "locations": [
+            {
+                "habitat": "excitingbeach",
+                "zones": [
+                    {
+                        "key": "witheredwastelands",
+                        "name": "Withered Wastelands"
+                    },
+                    {
+                        "key": "bleakbeach",
+                        "name": "Bleak Beach"
+                    },
+                    {
+                        "key": "rockyridges",
+                        "name": "Rocky Ridges"
+                    },
+                    {
+                        "key": "sparklingskylands",
+                        "name": "Sparkling Skylands"
+                    },
+                    {
+                        "key": "palettetown",
+                        "name": "Palette Town"
+                    },
+                    {
+                        "key": "cloudisland",
+                        "name": "Cloud Island"
+                    },
+                    {
+                        "key": "bubblybasin",
+                        "name": "Bubbly Basin"
+                    }
+                ],
+                "rarity": "Common",
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
+            }
+        ]
+    },
+    {
+        "key": "milotic",
+        "pokopiaId": 10007,
+        "image": "350",
+        "name": "Milotic",
+        "specialties": [
+            "Water",
+            "Hype"
+        ],
+        "locations": [
+            {
+                "habitat": "marineleisureactivities",
+                "zones": [
+                    {
+                        "key": "witheredwastelands",
+                        "name": "Withered Wastelands"
+                    },
+                    {
+                        "key": "bleakbeach",
+                        "name": "Bleak Beach"
+                    },
+                    {
+                        "key": "rockyridges",
+                        "name": "Rocky Ridges"
+                    },
+                    {
+                        "key": "sparklingskylands",
+                        "name": "Sparkling Skylands"
+                    },
+                    {
+                        "key": "palettetown",
+                        "name": "Palette Town"
+                    },
+                    {
+                        "key": "cloudisland",
+                        "name": "Cloud Island"
+                    },
+                    {
+                        "key": "bubblybasin",
+                        "name": "Bubbly Basin"
+                    }
+                ],
+                "rarity": "Common",
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
+            }
+        ]
+    },
+    {
+        "key": "pumpkaboo",
+        "pokopiaId": 10008,
+        "image": "710",
+        "name": "Pumpkaboo",
+        "specialties": [
+            "Hype"
+        ],
+        "locations": [
+            {
+                "habitat": "givemesomethinggoodtoeat",
+                "zones": [
+                    {
+                        "key": "witheredwastelands",
+                        "name": "Withered Wastelands"
+                    },
+                    {
+                        "key": "bleakbeach",
+                        "name": "Bleak Beach"
+                    },
+                    {
+                        "key": "rockyridges",
+                        "name": "Rocky Ridges"
+                    },
+                    {
+                        "key": "sparklingskylands",
+                        "name": "Sparkling Skylands"
+                    },
+                    {
+                        "key": "palettetown",
+                        "name": "Palette Town"
+                    },
+                    {
+                        "key": "cloudisland",
+                        "name": "Cloud Island"
+                    },
+                    {
+                        "key": "bubblybasin",
+                        "name": "Bubbly Basin"
+                    }
+                ],
+                "rarity": "Common",
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
+            }
+        ]
+    },
+    {
+        "key": "gourgeist",
+        "pokopiaId": 10009,
+        "image": "711",
+        "name": "Gourgeist",
+        "specialties": [
+            "Hype",
+            "Gather"
+        ],
+        "locations": [
+            {
+                "habitat": "creepypumpkins",
+                "zones": [
+                    {
+                        "key": "witheredwastelands",
+                        "name": "Withered Wastelands"
+                    },
+                    {
+                        "key": "bleakbeach",
+                        "name": "Bleak Beach"
+                    },
+                    {
+                        "key": "rockyridges",
+                        "name": "Rocky Ridges"
+                    },
+                    {
+                        "key": "sparklingskylands",
+                        "name": "Sparkling Skylands"
+                    },
+                    {
+                        "key": "palettetown",
+                        "name": "Palette Town"
+                    },
+                    {
+                        "key": "cloudisland",
+                        "name": "Cloud Island"
+                    },
+                    {
+                        "key": "bubblybasin",
+                        "name": "Bubbly Basin"
+                    }
+                ],
+                "rarity": "Common",
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
+            }
+        ]
+    },
+    {
+        "key": "applin",
+        "pokopiaId": 10010,
+        "image": "840",
+        "name": "Applin",
+        "specialties": [
+            "Grow"
+        ],
+        "locations": [
+            {
+                "habitat": "abundantapples",
+                "zones": [
+                    {
+                        "key": "witheredwastelands",
+                        "name": "Withered Wastelands"
+                    },
+                    {
+                        "key": "bleakbeach",
+                        "name": "Bleak Beach"
+                    },
+                    {
+                        "key": "rockyridges",
+                        "name": "Rocky Ridges"
+                    },
+                    {
+                        "key": "sparklingskylands",
+                        "name": "Sparkling Skylands"
+                    },
+                    {
+                        "key": "palettetown",
+                        "name": "Palette Town"
+                    },
+                    {
+                        "key": "cloudisland",
+                        "name": "Cloud Island"
+                    },
+                    {
+                        "key": "bubblybasin",
+                        "name": "Bubbly Basin"
+                    }
+                ],
+                "rarity": "Common",
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
+            },
+            {
+                "habitat": "sweetapplepie",
+                "zones": [
+                    {
+                        "key": "witheredwastelands",
+                        "name": "Withered Wastelands"
+                    },
+                    {
+                        "key": "bleakbeach",
+                        "name": "Bleak Beach"
+                    },
+                    {
+                        "key": "rockyridges",
+                        "name": "Rocky Ridges"
+                    },
+                    {
+                        "key": "sparklingskylands",
+                        "name": "Sparkling Skylands"
+                    },
+                    {
+                        "key": "palettetown",
+                        "name": "Palette Town"
+                    },
+                    {
+                        "key": "cloudisland",
+                        "name": "Cloud Island"
+                    },
+                    {
+                        "key": "bubblybasin",
+                        "name": "Bubbly Basin"
+                    }
+                ],
+                "rarity": "Common",
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
+            },
+            {
+                "habitat": "applekitchen",
+                "zones": [
+                    {
+                        "key": "witheredwastelands",
+                        "name": "Withered Wastelands"
+                    },
+                    {
+                        "key": "bleakbeach",
+                        "name": "Bleak Beach"
+                    },
+                    {
+                        "key": "rockyridges",
+                        "name": "Rocky Ridges"
+                    },
+                    {
+                        "key": "sparklingskylands",
+                        "name": "Sparkling Skylands"
+                    },
+                    {
+                        "key": "palettetown",
+                        "name": "Palette Town"
+                    },
+                    {
+                        "key": "cloudisland",
+                        "name": "Cloud Island"
+                    },
+                    {
+                        "key": "bubblybasin",
+                        "name": "Bubbly Basin"
+                    }
+                ],
+                "rarity": "Common",
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
+            }
+        ]
+    },
+    {
+        "key": "flapple",
+        "pokopiaId": 10011,
+        "image": "841",
+        "name": "Flapple",
+        "specialties": [
+            "Grow",
+            "Fly"
+        ],
+        "locations": [
+            {
+                "habitat": "applekitchen",
+                "zones": [
+                    {
+                        "key": "witheredwastelands",
+                        "name": "Withered Wastelands"
+                    },
+                    {
+                        "key": "bleakbeach",
+                        "name": "Bleak Beach"
+                    },
+                    {
+                        "key": "rockyridges",
+                        "name": "Rocky Ridges"
+                    },
+                    {
+                        "key": "sparklingskylands",
+                        "name": "Sparkling Skylands"
+                    },
+                    {
+                        "key": "palettetown",
+                        "name": "Palette Town"
+                    },
+                    {
+                        "key": "cloudisland",
+                        "name": "Cloud Island"
+                    },
+                    {
+                        "key": "bubblybasin",
+                        "name": "Bubbly Basin"
+                    }
+                ],
+                "rarity": "Common",
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
+            }
+        ]
+    },
+    {
+        "key": "appletun",
+        "pokopiaId": 10012,
+        "image": "842",
+        "name": "Appletun",
+        "specialties": [
+            "Grow",
+            "Crush"
+        ],
+        "locations": [
+            {
+                "habitat": "sweetapplepie",
+                "zones": [
+                    {
+                        "key": "witheredwastelands",
+                        "name": "Withered Wastelands"
+                    },
+                    {
+                        "key": "bleakbeach",
+                        "name": "Bleak Beach"
+                    },
+                    {
+                        "key": "rockyridges",
+                        "name": "Rocky Ridges"
+                    },
+                    {
+                        "key": "sparklingskylands",
+                        "name": "Sparkling Skylands"
+                    },
+                    {
+                        "key": "palettetown",
+                        "name": "Palette Town"
+                    },
+                    {
+                        "key": "cloudisland",
+                        "name": "Cloud Island"
+                    },
+                    {
+                        "key": "bubblybasin",
+                        "name": "Bubbly Basin"
+                    }
+                ],
+                "rarity": "Common",
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
+            }
+        ]
+    },
+    {
+        "key": "dipplin",
+        "pokopiaId": 10013,
+        "image": "1011",
+        "name": "Dipplin",
+        "specialties": [
+            "Grow",
+            "Recycle"
+        ],
+        "locations": [
+            {
+                "habitat": "abundantapples",
+                "zones": [
+                    {
+                        "key": "witheredwastelands",
+                        "name": "Withered Wastelands"
+                    },
+                    {
+                        "key": "bleakbeach",
+                        "name": "Bleak Beach"
+                    },
+                    {
+                        "key": "rockyridges",
+                        "name": "Rocky Ridges"
+                    },
+                    {
+                        "key": "sparklingskylands",
+                        "name": "Sparkling Skylands"
+                    },
+                    {
+                        "key": "palettetown",
+                        "name": "Palette Town"
+                    },
+                    {
+                        "key": "cloudisland",
+                        "name": "Cloud Island"
+                    },
+                    {
+                        "key": "bubblybasin",
+                        "name": "Bubbly Basin"
+                    }
+                ],
+                "rarity": "Rare",
+                "time": [
+                    "Morning",
+                    "Day",
+                    "Evening",
+                    "Night"
+                ],
+                "weather": [
+                    "Sun",
+                    "Cloud",
+                    "Rain"
+                ]
+            }
+        ]
+    },
+    {
+        "key": "hydrapple",
+        "pokopiaId": 10014,
+        "image": "1019",
+        "name": "Hydrapple",
+        "specialties": [
+            "Trade",
+            "Recycle"
+        ],
+        "locations": [
+            {
+                "habitat": "abundantapples",
+                "zones": [
+                    {
+                        "key": "witheredwastelands",
+                        "name": "Withered Wastelands"
+                    },
+                    {
+                        "key": "bleakbeach",
+                        "name": "Bleak Beach"
+                    },
+                    {
+                        "key": "rockyridges",
+                        "name": "Rocky Ridges"
+                    },
+                    {
+                        "key": "sparklingskylands",
+                        "name": "Sparkling Skylands"
+                    },
+                    {
+                        "key": "palettetown",
+                        "name": "Palette Town"
+                    },
+                    {
+                        "key": "cloudisland",
+                        "name": "Cloud Island"
+                    },
+                    {
+                        "key": "bubblybasin",
+                        "name": "Bubbly Basin"
+                    }
+                ],
+                "rarity": "Rare",
                 "time": [
                     "Morning",
                     "Day",
